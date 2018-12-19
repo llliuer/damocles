@@ -120,7 +120,7 @@ def handle_request(cxt):
     # 好友申请直接同意
     return dict(approve=True)
 
-
+#123
 @bot.on_request('group')
 @handle_exception_and_convert_return
 def handle_request(cxt):
